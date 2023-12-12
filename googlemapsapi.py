@@ -62,7 +62,7 @@ def write_to_csv(data, filename):
             writer.writerow(entry)
 
 def main():
-    api_key = 'AIzaSyAN-rsxLcxsjNQ3MvrpHoIOnC2T-le2shc'
+    api_key = 'my_api_here'
     
     manhattan_location = '40.7831, -73.9712'
     mexican_restaurants = find_mexican_restaurants(api_key, manhattan_location)
